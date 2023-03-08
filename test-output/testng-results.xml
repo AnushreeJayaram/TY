@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-07T17:05:38 IST" name="Default suite" finished-at="2023-03-07T17:05:46 IST" duration-ms="8236">
+    <groups>
+    </groups>
+    <test started-at="2023-03-07T17:05:38 IST" name="Default test" finished-at="2023-03-07T17:05:46 IST" duration-ms="8236">
+      <class name="tms.bird.travelProject.TC01_AdminCreatePackage_UserViewPackageTest">
+        <test-method is-config="true" signature="bcConfigSetup(java.lang.String)[pri:0, instance:tms.bird.travelProject.TC01_AdminCreatePackage_UserViewPackageTest@209da20d]" started-at="2023-03-07T17:05:38 IST" name="bcConfigSetup" finished-at="2023-03-07T17:05:42 IST" duration-ms="3545" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfigSetup -->
+        <test-method signature="adminCreatePackage_UserViewPackageTest()[pri:0, instance:tms.bird.travelProject.TC01_AdminCreatePackage_UserViewPackageTest@209da20d]" started-at="2023-03-07T17:05:42 IST" name="adminCreatePackage_UserViewPackageTest" finished-at="2023-03-07T17:05:46 IST" duration-ms="4369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminCreatePackage_UserViewPackageTest -->
+        <test-method is-config="true" signature="acConfigTearDown()[pri:0, instance:tms.bird.travelProject.TC01_AdminCreatePackage_UserViewPackageTest@209da20d]" started-at="2023-03-07T17:05:46 IST" name="acConfigTearDown" finished-at="2023-03-07T17:05:46 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfigTearDown -->
+      </class> <!-- tms.bird.travelProject.TC01_AdminCreatePackage_UserViewPackageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

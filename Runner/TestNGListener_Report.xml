@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<!-- For the report generation , i have used 
+ReportUtility -> package com.tms.genericutility.misc;
+ExtentReportListener -> package com.tms.genericutility.listener;
+TestNGPracticeClass2-> convert to TestNG-> generate xml file -> copy qualified name & paste it in xml file
+In xml -> add listeners tag-> mention in the class-name -> qualified name of ExtentReportListener 
+
+o/p -> intentionally it will fail in Gmail app -> Assertion error -> take that screenshot -> store it in report folder-->
+
+<listeners>
+	<listener
+	class-name = "com.tms.genericutility.listener.ExtentReportListener" />
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="tms.bird.testngPractise.TestNGPracticeClass2"/>
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

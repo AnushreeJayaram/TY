@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="tms.bird.travelProject.TC02_AdminCreatePackage_UpdateSamePackageTest"/>
+      <class name="tms.bird.travelProject.TC01_AdminCreatePackage_UserViewPackageTest"/>
+      <class name="tms.bird.travelProject.TC04_UserSignIn_BookPackage_AdminLogin_ConfirmBooking_UserViewStatus_MyTourHistoryTest"/>
+      <class name="tms.bird.travelProject.TC03_UserSignUp_SignIn_UserBookPackage_AdminLogin_ConfirmPackageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

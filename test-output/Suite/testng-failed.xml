@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.tms.genericutility.listener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tms.bird.travelProject.TC03_UserSignUp_SignIn_UserBookPackage_AdminLogin_ConfirmPackageTest">
+        <methods>
+          <include name="acConfigTearDown"/>
+          <include name="userSignUp_SignIn_UserBookPackage_AdminLogin_ConfirmPackageTest"/>
+          <include name="bcConfigSetup"/>
+        </methods>
+      </class> <!-- tms.bird.travelProject.TC03_UserSignUp_SignIn_UserBookPackage_AdminLogin_ConfirmPackageTest -->
+      <class name="tms.bird.travelProject.TC02_AdminCreatePackage_UpdateSamePackageTest">
+        <methods>
+          <include name="acConfigTearDown"/>
+          <include name="adminCreatePackage_UpdateSamePackageTest"/>
+          <include name="bcConfigSetup"/>
+        </methods>
+      </class> <!-- tms.bird.travelProject.TC02_AdminCreatePackage_UpdateSamePackageTest -->
+      <class name="tms.bird.travelProject.TC01_AdminCreatePackage_UserViewPackageTest">
+        <methods>
+          <include name="acConfigTearDown"/>
+          <include name="bcConfigSetup"/>
+          <include name="adminCreatePackage_UserViewPackageTest"/>
+        </methods>
+      </class> <!-- tms.bird.travelProject.TC01_AdminCreatePackage_UserViewPackageTest -->
+      <class name="tms.bird.travelProject.TC04_UserSignIn_BookPackage_AdminLogin_ConfirmBooking_UserViewStatus_MyTourHistoryTest">
+        <methods>
+          <include name="acConfigTearDown"/>
+          <include name="bcConfigSetup"/>
+          <include name="userSignIn_BookPackage_AdminLogin_ConfirmBooking_UserViewStatus_MyTourHistoryTest"/>
+        </methods>
+      </class> <!-- tms.bird.travelProject.TC04_UserSignIn_BookPackage_AdminLogin_ConfirmBooking_UserViewStatus_MyTourHistoryTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
